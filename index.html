@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CLASES ABSTRACTAS Y POLIMORFISMO</title>
+    <link href="css/estilos.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>Figuras Geométricas</h1>
+    </header>
+    <form id="forma">
+      
+      <div>
+        <h1>Rectágulo</h1>
+        <br>
+        <label accesskey="N">
+          Color<br>
+          <input name="color1" type="text" ><br>
+        </label>
+        <br>
+        <label accesskey="N">
+          Lado Mayor<br>
+          <input name="ladoMayor" type="number"><br>
+        </label>
+        <br>
+        <br>
+        <label accesskey="N">
+          Lado Menor<br>
+          <input name="ladoMenor" type="number"><br>
+        </label>
+        <br>
+          <button id="btn1" class="botton" value="Generar" accesskey="P">Calcular</button>
+        <br>
+          <h3><output id="salidaRectagulo"></output></h3>
+        <br> 
+      </div>
+
+      <div>
+        <h1>Triangulo</h1>
+        <br>
+        <label accesskey="N">
+          Color<br>
+          <input name="color2" type="text"><br>
+        </label>
+        <br>
+        <label accesskey="N">
+          Base<br>
+          <input name="base" type="number"><br>
+        </label>
+        <br>
+        <br>
+        <label accesskey="N">
+          Altura<br>
+          <input name="altura" type="number" ><br>
+        </label>
+        <br>
+        <label accesskey="N">
+          Lados<br>
+          <input name="lados" type="number" ><br>
+        </label>
+        <br>
+          <button id="btn2" class="botton" value="Generar" accesskey="P">Calcular</button>
+        <br>
+        <h3><output id="salidaTriangulo"></output></h3>
+        <br> 
+      </div>
+
+      <div>
+        <h1>Circulo</h1>
+        <br>
+        <label accesskey="N">
+          Color<br>
+          <input name="color3" type="text"><br>
+        </label>
+        <br>
+        <label accesskey="N">
+          Radio<br>
+          <input name="radio" type="number"><br>
+        </label>
+        <br>
+          <button id="btn3" class="botton" value="Generar" accesskey="P">Calcular</button>
+        <br>
+        <h3><output id="salidaCirculo"></output></h3>
+        <br> 
+      </div>
+
+    </form>
+    <footer>
+      Copyright 2021 Fernando Bautista Morales
+    </footer>
+    <script src="js/CtrlAreaPerimetro.js"></script>
+  </body>
+</html>
